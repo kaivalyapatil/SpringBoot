@@ -1,1 +1,14 @@
 
+Some of Common Problems solution in eclipse
+•	Tom cat server not working :-  
+  (close eclipse)
+  	Open C drive(or your eclipse-workspace)
+  	Click on user
+  	Click on your name folder(ex-kaivalya)
+  	Open eclipse-workspace
+  	Then open .metadata folder
+  	Open .plugin
+  	Open folder org.eclipse.core.resources and delete .snap file
+  	Open folder org.eclipse.wst.server.core and delete temp() folder
+  	Open eclipse and delete server (select server -click right and delete)
+  	Then you got option there create server click on it and select your server
